@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body onload="orden()">
+    <div class="container">
+        <h1>Desarrollador por: Wilton Armando Hurtado Moreno</h1>
+        <a href="compras.html"><button type="button" class="btn btn-primary">Realizar compras</button></a>
+        <a href="compras_all.html"><button type="button" class="btn btn-secondary">Total compras</button></a>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <button class='list-group-item list-group-item-action' type="button" onclick="orden()"><strong>Orden</strong></button>
+                <button class='list-group-item list-group-item-action' type="button" onclick="detalle()"><strong>Detalle Orden</strong></button>
+                <button class='list-group-item list-group-item-action' type="button" onclick="detalle2()" data-toggle="modal" data-target="#confirmar"><strong>Finalizar Compra</strong></button>
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" id="opcion">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="modal fade" id="confirmar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Confirmación</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+
+                    <div id="detalle_orden"></div>
+
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

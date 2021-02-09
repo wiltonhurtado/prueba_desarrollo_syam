@@ -1,0 +1,52 @@
+.head-table {
+    background-color: cornflowerblue;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold;
+}
+
+.td-table {
+    background-color: rgb(195, 209, 250);
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold;
+}
+
+.td-list {
+    background-color: rgb(236, 238, 243);
+}
+
+.th-head {
+    color: white;
+}
+
+.btn-eliminr-producto {
+    background-color: rgb(236, 238, 243);
+    border: none;
+    color: #d42323;
+    float: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-detalle {
+    text-align: center;
+}
+
+.espacio {
+    height: 100px;
+}
+
+.table {
+    border: none;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: none;
+}
