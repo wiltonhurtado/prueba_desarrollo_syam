@@ -1,4 +1,4 @@
-## prueba_desarrollo_syam cosmetic
+## Prueba de desarrrollo SYAM Cosmetics S.A.S
 
 - Desarrollo frontend por medio de javascritp, jquery y ajax
 - Base de datos en mysql y backend en php
